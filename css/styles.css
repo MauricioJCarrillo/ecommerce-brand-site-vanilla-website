@@ -263,8 +263,10 @@ main {
 }
 /*----------------------------------------------- Footer section*/
 footer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  place-items: center;
   align-items: center;
   flex-flow: row wrap;
   padding: 0 16px;
@@ -272,6 +274,10 @@ footer {
   font-size: 1.2rem;
   font-weight: normal;
   background-color: var(--gray-dark);
+}
+footer p {
+  grid-column: 1 / 3;
+  color: var(--off-white);
 }
 footer a{
   color: var(--off-white);
