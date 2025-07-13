@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/animation.css" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -15,7 +18,9 @@
   <body>
     <nav class="navbar fadeInDown">
       <span class="navbar__logo">
-        <a href="index.html"><img src="./assets/images/logo.png" alt="Marca principal - Brand" /></a>
+        <a href="index.html"
+          ><img src="./assets/images/logo.png" alt="Marca principal - Brand"
+        /></a>
       </span>
       <ul class="navbar__options">
         <li><a href="product.html">Producto / descripción</a></li>
@@ -24,26 +29,35 @@
     </nav>
     <main>
       <section class="main__sale-container">
-            <article class="product-information">
-              <img src="./assets/images/box2.png" alt="Gatos en una caja" />
-              <h2>Caja de gatos</h2>
-              <p>
-                Miles de productos hay en el mercado, pero nada como una caja de
-                gatos.
-              </p>
-            </article>
-            <form class="sales__form" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N4CD2CSPCNXLW" method="POST">
-              <label for="name">Nombre</label>
-              <input class="name-input" type="text" name="user_name" id="name" />
+        <article class="product-information">
+          <img src="./assets/images/box2.png" alt="Gatos en una caja" />
+          <h2>Caja de gatos</h2>
+          <p>
+            Miles de productos hay en el mercado, pero nada como una caja de
+            gatos.
+          </p>
+        </article>
+        <form
+          class="sales__form"
+          action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N4CD2CSPCNXLW"
+          method="POST"
+        >
+          <label for="name">Nombre</label>
+          <input class="name-input" type="text" name="user_name" id="name" />
 
-              <label for="mail">Mail</label>
-              <input class="mail-input" type="email" name="user_mail" id="mail" />
+          <label for="mail">Mail</label>
+          <input class="mail-input" type="email" name="user_mail" id="mail" />
 
-              <label for="telephone">Teléfono</label>
-              <input class="telephone-input" type="number" name="user_telephone" id="telephone" />
+          <label for="telephone">Teléfono</label>
+          <input
+            class="telephone-input"
+            type="number"
+            name="user_telephone"
+            id="telephone"
+          />
 
-              <input class="pay-confirm" type="submit" value="Confirmar pago" />
-            </form>
+          <input class="pay-confirm" type="submit" value="Confirmar pago" />
+        </form>
       </section>
     </main>
     <footer>

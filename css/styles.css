@@ -3,15 +3,18 @@
   --off-white: #faf8f7;
   --gray-dark: #313337;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
 }
+
 /*----------------------------------------------- Nav bar section*/
 .navbar {
   display: flex;
@@ -24,20 +27,24 @@ html {
   font-weight: bold;
   background-color: var(--green-soft);
 }
+
 .navbar__options {
   display: flex;
   list-style: none;
 }
+
 .navbar__options a {
   display: block;
   padding: 10px;
   color: var(--gray-dark);
   text-decoration: none;
 }
+
 .navbar__options a:hover {
   color: white;
   border-radius: 10px;
 }
+
 /*----------------------------------------------- Main section*/
 /*---------------------------Product section*/
 main {
@@ -46,6 +53,7 @@ main {
   text-align: center;
   background: var(--off-white);
 }
+
 .main__products .title__container {
   width: 60%;
   margin: 0 auto;
@@ -57,15 +65,17 @@ main {
   line-height: 4.1rem;
   color: var(--gray-dark);
 }
-.products__container-image{
+
+.products__container-image {
   display: flex;
   position: relative;
   height: 345px;
-  background-image: url('../assets/images/curve.png');
+  background-image: url("../assets/images/curve.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
+
 .products__container {
   display: flex;
   position: absolute;
@@ -74,6 +84,7 @@ main {
   left: calc(50% - 239px);
   top: -160px;
 }
+
 .product-information {
   width: 239px;
   height: auto;
@@ -82,26 +93,30 @@ main {
   background-color: var(--off-white);
   box-shadow: 0px 3px 6px #00000029;
 }
-.product-information img{
+
+.product-information img {
   width: 136px;
   height: 136px;
   margin-bottom: 10px;
 }
-.product-information h2{
+
+.product-information h2 {
   margin-bottom: 8px;
   font-size: 1.7rem;
   font-weight: bold;
   text-align: left;
   color: var(--gray-dark);
 }
-.product-information p{
+
+.product-information p {
   padding-bottom: 6px;
   font-size: 1.2rem;
   font-weight: normal;
   text-align: left;
   color: var(--gray-dark);
 }
-.product-information button{
+
+.product-information button {
   width: 100%;
   padding: 10px;
   font-size: 1.7rem;
@@ -112,9 +127,11 @@ main {
   cursor: pointer;
   border-radius: 2px;
 }
-.product-information button:hover{
-  background-color: #375f11;  
+
+.product-information button:hover {
+  background-color: #375f11;
 }
+
 /*---------------------------Benefits section*/
 .main__benefits {
   display: flex;
@@ -124,53 +141,62 @@ main {
   height: auto;
   padding: 160px 0 100px;
 }
-.benefits__container{
+
+.benefits__container {
   width: 195px;
   padding: 15px;
   height: auto;
 }
-.benefits__container .cute-image{
+
+.benefits__container .cute-image {
   width: 138px;
   height: 113px;
 }
-.benefits__container .jupiter-image{
+
+.benefits__container .jupiter-image {
   width: 112px;
   height: 103px;
 }
-.benefits__container .circle-image{
+.benefits__container .circle-image {
   width: 104px;
   height: 104px;
 }
-.benefits__container h2{
+
+.benefits__container h2 {
   padding: 30px 0 16px;
   font-size: 1.7rem;
   font-weight: bold;
   color: var(--gray-dark);
 }
-.benefits__container p{
+
+.benefits__container p {
   font-size: 1.2rem;
   font-weight: normal;
   text-align: left;
   color: var(--gray-dark);
 }
+
 /*---------------------------Mentions section*/
-.main__mentions{
+.main__mentions {
   height: auto;
   padding-bottom: 56px;
   text-align: center;
 }
-.main__mentions .mentions-title{
+
+.main__mentions .mentions-title {
   padding: 30px 0 39px;
   font-size: 3rem;
   font-weight: bold;
   color: var(--gray-dark);
 }
-.mentions-conteiner{
+
+.mentions-conteiner {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
-.container-card{
+
+.container-card {
   width: 239px;
   height: 187px;
   margin: 5px;
@@ -178,24 +204,28 @@ main {
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 2px;
 }
-.container-card img{
+
+.container-card img {
   width: 239px;
   height: 104px;
 }
-.container-card h2{
+
+.container-card h2 {
   padding: 3px 8px 6px;
   font-size: 1.7rem;
   font-weight: bold;
   color: var(--gray-dark);
 }
-.container-card p{
+
+.container-card p {
   padding-left: 8px;
   font-size: 1.2rem;
   font-weight: normal;
   color: var(--gray-dark);
 }
+
 /*----------------------------------------------- Sales page*/
-.main__sale-container{
+.main__sale-container {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -203,7 +233,8 @@ main {
   margin: auto;
   padding: 200px 0;
 }
-.sales__form{
+
+.sales__form {
   width: 337px;
   height: auto;
   margin: 8px;
@@ -211,14 +242,18 @@ main {
   background-color: var(--off-white);
   box-shadow: 0px 3px 6px #00000029;
 }
-.sales__form label{
+
+.sales__form label {
   display: block;
   padding: 5px 0;
   font-size: 1.2rem;
   font-weight: normal;
   text-align: left;
 }
-.sales__form .name-input, .mail-input, .telephone-input{
+
+.sales__form .name-input,
+.mail-input,
+.telephone-input {
   display: block;
   width: 100%;
   height: 33px;
@@ -226,6 +261,7 @@ main {
   border: 1px solid #313337;
   border-radius: 2px;
 }
+
 .sales__form .pay-confirm {
   width: 100%;
   height: 33px;
@@ -238,8 +274,9 @@ main {
   border: 0;
   border-radius: 2px;
 }
+
 /*------------------------------------------Successful / failed payment pages*/
-.main__payment-container{
+.main__payment-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -248,19 +285,23 @@ main {
   color: var(--off-white);
   background-color: var(--gray-dark);
 }
-.main__payment-container h3{
+
+.main__payment-container h3 {
   padding: 12px 0;
   font-size: 1.7rem;
   font-weight: bold;
 }
-.main__payment-container p{
+
+.main__payment-container p {
   font-size: 1.2rem;
   font-weight: normal;
 }
-.main__payment-container a{
+
+.main__payment-container a {
   color: var(--green-soft);
   text-decoration: none;
 }
+
 /*----------------------------------------------- Footer section*/
 footer {
   display: grid;
@@ -275,37 +316,45 @@ footer {
   font-weight: normal;
   background-color: var(--gray-dark);
 }
+
 footer p {
   grid-column: 1 / 3;
   color: var(--off-white);
 }
-footer a{
+
+footer a {
   color: var(--off-white);
   text-decoration: none;
 }
-footer a:hover{
+
+footer a:hover {
   color: var(--green-soft);
 }
+
 /*----------------------------------------- Media Queries section*/
 /*Mobile first usa min-width = desde*/
 /*Desktop first usa max-width = hasta*/
 @media screen and (max-width: 550px) {
-  .navbar{
+  .navbar {
     flex-flow: column wrap;
   }
+
   .main__products .title__container {
     width: 70%;
     padding-top: 60px;
   }
-  .products__container-image{
+
+  .products__container-image {
     height: 470px;
   }
+
   .products__container {
     flex-flow: column wrap;
     left: calc(50% - 127.5px);
-    top: -160px;    
+    top: -160px;
   }
-  .main__benefits{
+
+  .main__benefits {
     padding: 50px 0;
   }
 }
