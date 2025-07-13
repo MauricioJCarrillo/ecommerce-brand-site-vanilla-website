@@ -4,7 +4,7 @@ This project is a **Mini E-commerce - Brand Site** using HTML and CSS Foundation
 
 ## GitHub Pages
 
-[Brand Site - Mini E-commerce](https://mauriciojcarrillo.github.io/ecommerce-brand-site-platzi)
+[Brand Site - Mini E-commerce](https://mauriciojcarrillo.github.io/ecommerce-brand-site-vanilla-website/)
 
 ## Technologies and concepts
 
