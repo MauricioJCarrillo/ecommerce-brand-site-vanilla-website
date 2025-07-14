@@ -1,20 +1,3 @@
-:root {
-  --green-soft: #7acc2d;
-  --off-white: #faf8f7;
-  --gray-dark: #313337;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-  font-family: "Open Sans", sans-serif;
-}
-
 .fadeIn {
   animation-duration: 2s;
   -webkit-animation-duration: 2s;
