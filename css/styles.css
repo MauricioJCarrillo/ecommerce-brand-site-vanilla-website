@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: auto;
   padding: 17px 22px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   background-color: var(--green-soft);
 }
@@ -363,6 +363,7 @@ footer a:hover {
 @media screen and (max-width: 550px) {
   .navbar {
     flex-flow: column wrap;
+    font-size: 1.4rem;
   }
 
   .main__products .title__container {
